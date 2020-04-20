@@ -4,7 +4,7 @@
 }
 
 
-/* ----------------------nav----------------------  */
+/* ----------------------Logo and Nav Bar----------------------  */
 #header {
     display: flex;
     flex-direction: row;
@@ -30,12 +30,12 @@
     flex-direction: row;
 }
 
-.nav-link {
+#nav-bar ul li {
     display: flex;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
-.nav-link a {
+.nav-link {
     margin: 1em;
     padding: 0.3em 1.5em;
     text-decoration: none;
@@ -50,7 +50,7 @@
 }
 
 /* ----------------------Landing----------------------  */
-.landing-img {
+.landing {
     margin: 0;
     width: 100%;
     height: 60vh;
@@ -58,4 +58,48 @@
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-wrap {
+    margin: 1em;
+    padding: 1.5em 2em;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 1em;
+}
+
+.landing-title {
+    padding: 0.5em;
+    font-size: 2em;
+}
+
+#form #email {
+    margin: 1em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    border-style: none;
+    background-color: whitesmoke;
+    font-size: 1.2em;
+}
+
+#form #submit {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 1em;
+    background-color: hsl(3, 81%, 57%);
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+/* ----------------------Video----------------------  */
+.video-sec {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }

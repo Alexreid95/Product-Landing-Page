@@ -16,24 +16,27 @@
         <i id="header-img" class="fas fa-carrot"><span class="logo-text">EAT GOOD GOOD<span></i>
         <nav id="nav-bar">
             <ul>
-                <li class="nav-link"><a href="#about">About</a></li>
-                <li class="nav-link"><a href="#why">Why?</a></li>
-                <li class="nav-link"><a href="#price">Price</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#why">Why?</a></li>
+                <li><a class="nav-link" href="#price">Price</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="landing">
-        <div class="landing-img"></div>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <label for=""></label>
-            <input id="email" type="email" name="email" placeholder="hedwig1980@hogwarts.com">
-            <label for=""></label>
-            <input id="submit" type="submit" value="Submit Me!">
-        </form>
-
+        <div class="landing-wrap">
+            <h2 class="landing-title">Eat Good Good Every Day!</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" type="email" name="email" aria-label="input email"
+                    placeholder="hedwig1980@hogwarts.com">
+                <input id="submit" type="submit" aria-label="submit email" value="Submit Me!">
+            </form>
+        </div>
     </section>
 
+    <section class="video-sec">
+        <iframe id="video" height="360" width="640" src="exampleURL"></iframe>
+    </section>
 
 </body>
 
